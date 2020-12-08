@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <link rel="stylesheet" href="credit_card.css">
+<title> Credit card info form</title>
+</head>
+<body>
+    <form class="credit card">
+        
+        <fieldset style="width:40%" class="details">
+        <p><b>Step 1: Your details</b></p>
+    
+        <fieldset>
+       
+
+    <label for="myName"><b>Name</b> </label>
+    <input type = "text" id = "myName" size="25" class="name" placeholder="First and last name"/>
+
+
+</fieldset>
+
+
+    <fieldset>
+        <div class="label"
+    <label for="email"><b>Email</b></label>
+    <input type="text" id="email" size="25" class="email" placeholder="example@domain.com">
+
+</fieldset>
+    <fieldset>
+    <label for="phone"><b>Phone</b></label>
+    <input type="text" id="phone" size="25" class="phone" placeholder="Eg. +447500000000">  
+    </fieldset>
+    <p><b>Step 2: Delivery address</b></p>
+   
+    <fieldset>
+    <label for="Address" class="TextWrap"><b>Address</b></label>
+    <textarea rows="5" cols="24"  class="TextWrap1" name="comment"></textarea>
+    </fieldset>
+    <fieldset>
+    <label for="code" ><b>Post code</b></label>
+    <input type="text" id="code" size="25" class="code">
+    </fieldset>
+    <fieldset>
+    <label for="country" ><b>Country</b></label>
+    <input type="text" id="country" size="25" class="country">
+    </fieldset>
+    <p><b>Step 3: Card details</b></p>
+    <fieldset>
+    <p> Card type </p>
+    
+    <label for="visa" class="visa"> <b>Visa </b></label> 
+    <input type="radio" id="visa" name="card company" value="visa">
+    
+    
+    <label for="AmEx" class="AmEx"> <b>AmEx</b></label> 
+    <input type="radio" id="AmEx" name="card company" value="AmEx">
+    
+    
+    <label for="master" class="master"> <b>Mastercard </b></label> 
+    <input type="radio" id="master" name="card company" value="mastercard"><br>
+    
+    </fieldset>
+    <fieldset>
+    <label for="card_number"><b>Card number</b></label>
+    <input type="text" id="card_number" size="25" class="card_number">
+    </fieldset>
+    <fieldset>
+    <label for="Sec_code"><b>Security code</b></label>
+    <input type="text" id="Sec_code" size="25" class="sec_code">
+    </fieldset>
+    <fieldset>
+    <label for="name_on_card"><b>Name on card</b></label>
+    <input type="text" id="name_on_card" size="25" class="name_on_card" placeholder="Exact name as on the card">
+</fieldset><br>
+
+    <input type="submit" value="BUY IT!" class="button">
+   
+</fieldset>
+</form>
+</body>
+
+</html>
+

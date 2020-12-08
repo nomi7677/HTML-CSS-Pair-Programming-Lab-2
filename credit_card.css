@@ -1,0 +1,84 @@
+.button{
+    
+    background-color: rgba(19, 17, 17, 0.76);
+    color: white;
+    border-radius: 12px;
+    margin-left:190px;
+    
+}
+
+.details {
+    background-color: #809b1e;
+    border-style: solid;
+        border-color: white;
+        border-radius: 5px;
+   
+}
+fieldset {
+    
+    background:rgb(157, 196, 67);
+    border-style: solid;
+        border-color: white;
+        border-radius: 2px;
+    margin-bottom: 3px;
+}
+* {
+    box-sizing: border-box;
+   
+  }
+
+  .TextWrap{
+    position: relative;
+    top: -70px;
+    
+    }
+ 
+    .name{
+       
+        border-style: solid;
+    border-color: white;
+    border-radius: 2px;
+    margin-left: 102px;
+}
+
+    .email{margin-left: 102px;
+        border-style: solid;
+        border-color: white;
+        border-radius: 2px;
+    }
+    .phone{margin-left: 102px;
+        border-style: solid;
+        border-color: white;
+        border-radius: 2px;
+    }
+    .TextWrap{margin-right: 90px;}
+    .TextWrap1{
+        border-style: solid;
+        border-color: white;
+        border-radius: 2px
+    }
+    .code{margin-left: 80px;
+        border-style: solid;
+        border-color: white;
+        border-radius: 2px;}
+    .country{margin-left: 86px;
+        border-style: solid;
+        border-color: white;
+        border-radius: 2px;}
+    .AmEx{margin-left: 50px;}
+    .master{margin-left: 50px;}
+    .card_number{margin-left: 48px;
+        border-style: solid;
+        border-color: white;
+        border-radius: 2px;
+    }
+    .sec_code{margin-left: 48px;
+        border-style: solid;
+        border-color: white;
+        border-radius: 2px;
+    }
+    .name_on_card{margin-left:45px;
+        border-style: solid;
+        border-color: white;
+        border-radius: 2px;
+    }
